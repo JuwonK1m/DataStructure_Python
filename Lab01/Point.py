@@ -1,3 +1,5 @@
+# Written by Kimjuwon
+
 class Point:
     # Constructor
     def __init__(self, x = 0, y = 0):
@@ -21,3 +23,5 @@ class Point:
     def __mul__(self, right):
         point = Point(self.x * right.x, self.y * right.y)
         return point
+    
+    
